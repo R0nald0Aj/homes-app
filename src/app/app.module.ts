@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './page/home/home.component';
+import { FormFilterComponent } from './components/form-filter/form-filter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    FormFilterComponent
   ],
   imports: [
     BrowserModule,
