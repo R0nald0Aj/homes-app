@@ -3,7 +3,10 @@
         <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
     </header>
 
-
-
-<p> {{nomeTeste}} </p>
+<app-form-filter></app-form-filter>
+<section class="results">
+   <app-house-location
+   *ngFor="let element of housingLocationList" 
+    [housingLocation]="element"></app-house-location>
+</section>
 </main>
